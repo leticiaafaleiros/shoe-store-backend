@@ -1,8 +1,4 @@
-{
-  "routes": [
-    { "src": "/success", "dest": "./pages/succes.js" },
-    { "src": "/failed", "dest": "./pages/failed.js" }
-  ],
+{  
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
 
