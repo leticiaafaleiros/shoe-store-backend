@@ -1,7 +1,7 @@
 {
   "routes": [
-    { "src": "/success", "dest": "/caminho-da-pagina-success" },
-    { "src": "/failed", "dest": "/caminho-da-pagina-failed" }
+    { "src": "/success", "dest": "./pages/succes.js" },
+    { "src": "/failed", "dest": "./pages/failed.js" }
   ],
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
