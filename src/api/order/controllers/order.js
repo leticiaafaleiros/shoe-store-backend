@@ -53,6 +53,3 @@ module.exports = createCoreController("api::order.order", ({ strapi }) => ({
     }
   },
 }));
-
-
-
